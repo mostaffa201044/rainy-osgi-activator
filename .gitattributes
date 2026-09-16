@@ -1,0 +1,10 @@
+# Normalize line endings
+*.jpg binary
+
+build/* linguist-vendored
+*.sh text eol=lf
+go.sum linguist-generated
+src/** linguist-detectable
+
+docs/index.html linguist-vendored
+package-lock.json linguist-generated
